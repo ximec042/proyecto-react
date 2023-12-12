@@ -1,0 +1,35 @@
+nav{
+
+    height: 50%;
+
+}
+
+.nombre-header{
+    border-bottom: 1px solid #413535;
+    padding-bottom: 83px;
+    padding-top: 30px;
+    margin: 43px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.lista{
+    display: flex;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+   
+.navbar a{
+    color:black;
+    text-decoration: none;
+}

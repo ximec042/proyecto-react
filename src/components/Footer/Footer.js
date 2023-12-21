@@ -4,15 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer-distributed">
-      <div className="footer-right">
-        <p>Contact Us</p>
-
-        <form action="#" method="post">
-          <input type="text" name="email" placeholder="Email" />
-          <textarea name="message" placeholder="Message"></textarea>
-          <button>Send</button>
-        </form>
-      </div>
+    
       <div>
         <h3>
           Company<span>logo</span>

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 import Routers from "./Routes";
 
 function App() {
@@ -8,10 +8,8 @@ function App() {
     <>
       <div className="App">
         <Header />
-        {/* <Footer />  */}
         <Routers />
-      
-       
+        <Footer />
       </div>
     </>
   );
